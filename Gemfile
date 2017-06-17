@@ -28,6 +28,8 @@ gem 'jquery-turbolinks'
 gem 'rails_12factor', group: :production
 gem 'devise'
 gem 'faker'
+gem 'rails_admin'
+gem 'cancan'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
