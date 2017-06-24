@@ -53,4 +53,11 @@ group :development do
   gem 'spring'
   gem 'pry-rails'
   gem 'better_errors'
+  gem 'dotenv-rails'
 end
+
+ gem 'omniauth'
+ gem 'omniauth-twitter'
+ gem 'omniauth-facebook'
+ gem 'carrierwave'
+ gem 'mini_magick'
