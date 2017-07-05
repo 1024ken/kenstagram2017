@@ -6,9 +6,10 @@
       <%= f.hidden_field :content %>
       <p>タイトル:<%= @blog.title %></p>
       <p>本文:<%= @blog.content %></p>
+      <%= image_tag(@blog.image) %>
+      <%= hidden_field_tag :"cache[image]", @blog.image.cache_name %>
       <%= f.submit "登録" %>
     <% end %>
-    
     <%= form_for(@blog, url: new_blog_path, method: 'get') do |f| %>
       <%= f.hidden_field :title %>
       <%= f.hidden_field :content %>
