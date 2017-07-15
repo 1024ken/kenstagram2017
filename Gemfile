@@ -52,13 +52,13 @@ group :development do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'pry-rails'
   gem 'better_errors'
   gem 'dotenv-rails'
 end
+gem 'pry-rails'
 
- gem 'omniauth'
- gem 'omniauth-twitter'
- gem 'omniauth-facebook'
- gem 'carrierwave'
- gem 'mini_magick'
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+gem 'carrierwave'
+gem 'mini_magick'

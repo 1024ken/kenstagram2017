@@ -47,6 +47,7 @@ class BlogsController < ApplicationController
   end
 
   def confirm
+    binding.pry
     @blog = Blog.new(blogs_params)
     render :new if @blog.invalid?
   end
