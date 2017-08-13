@@ -83,6 +83,7 @@ footer {
   padding: 25px;
   font-size: 12px;
   bottom: 0;
+  position: fixed;
 }
 
 html {
@@ -92,4 +93,8 @@ html {
 
 body {
   text-align: center;
+}
+
+a.btn.btn-default {
+  padding: 0px 5px 0px 5px;
 }
