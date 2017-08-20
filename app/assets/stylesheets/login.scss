@@ -1,3 +1,7 @@
+.devise-confirm {
+    margin-top: 150px;
+}
+
 .btn.btn-default{
     padding-top: 0px;
     padding-bottom: 0px;
@@ -5,6 +9,12 @@
     padding-left: 5px;
 }
 
-.login-field {
-    margin-top: 5px;
+.field-picture {
+    padding-top: 5px;
+  img {
+    width: 250px;
+    height: 150px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+  }
 }

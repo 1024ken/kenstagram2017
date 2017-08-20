@@ -451,3 +451,33 @@ template {
 img{
   max-width: 100%;
 }
+
+p {
+  font-family: "ＭＳ P明朝",serif;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-family: "ＭＳ P明朝",serif;
+}
+
+h1 {
+  font-family: "ＭＳ P明朝",serif;
+}
+
+h2 {
+  font-family: "ＭＳ P明朝",serif;
+}
+
+input {
+  font-family: "ＭＳ P明朝",serif;
+}
+
+label {
+  font-family: "ＭＳ P明朝",serif;
+}
+
+.container {
+  font-family: "ＭＳ P明朝",serif;
+}

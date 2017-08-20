@@ -1,3 +1,15 @@
+.wrapper col-md-8 col-md-offset-2 col-sm-10-index {
+  margin-top: 100px;
+}
+
+.col-md-6.col-md-offset-3.col-sm-10.col-sm-offset-1-confirm {
+  margin-top: 100px;
+}
+
+.col-md-6.col-md-offset-3.col-sm-10.col-sm-offset-1-edit {
+  margin-top: 100px;
+}
+
 .wrapper {
   margin-bottom: 74px;
   padding: 20px 20px 20px 35px;
@@ -16,10 +28,20 @@ input[type="submit"].btn-block{
   margin-top: 100px;
   padding-bottom: 85px;
 }
-
-.img src{
-  width: 100px;
-  height: 100px;
+.picture {
+    width: 200px;
+    height: 150px;
+    margin-bottom: 10px;
+  img {
+    width: 55%;
+  }
+  .picture.buttun {
+    width: 150px;
+    height: 30px;
+    padding-left: 15px;
+    padding-top: 2px;
+    margin-bottom: 3px;
+  }
 }
 
 .field {
